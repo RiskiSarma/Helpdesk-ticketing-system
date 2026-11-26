@@ -8,7 +8,7 @@ const PHONE_RE = /^\+?[0-9\s-]{8,20}$/;
 const SELECT_TIKET = `
     SELECT t.*, c.name AS category_name
     FROM tickets t
-    LEFT JOIN categories c ON c.id = t.category_id
+    LEFT JOIN catagories c ON c.id = t.category_id
 `;
 
 // ---------- helper ----------

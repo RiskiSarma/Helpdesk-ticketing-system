@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use('/api/categories', kategoriRoute);
+app.use('/api/catagories', kategoriRoute);
 app.use('/api/tickets', tiketRoute);
 app.use('/api/dashboard', dashboardRoute);
 
